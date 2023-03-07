@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    const lang = navigator.language;
+    switch (lang) {
+        case "zh-CN":
+        case "zh-cn":
+        case "zh-HK":
+        case "zh-hk":
+        case "zh-TW":
+        case "zh-tw":
+            // alert(window.location.host);
+            window.location.href = "http://" + window.location.host + "/zh/";
+            break;
+        default:
+            window.location.href = "http://" + document.domain + "/en/";
+    }
+</script>
+</body>
+</html>

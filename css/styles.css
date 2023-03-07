@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #ffc78d;
+    /*width: 1080px;*/
+}
+
+ul {
+    justify-content: center;
+    margin: 1vmin;
+}
+
+li {
+    width: 46vmin;
+    margin: 1vmin;
+    border-radius: 2vmin;
+    display: flex;
+    background-color: #ffe6be;
+    flex-direction: column;
+    align-items: center;
+}
+
+#qr {
+    width: 50vw;
+    height: 50vw;
+}
+
+h1 {
+    margin: 0.5vmin;
+}
+
+#newRoleName {
+    height: 10vmin;
+    font-size: 4vmin;
+    width: 81.5vw;
+    margin: 3.5vmin 0 2vmin 2vmin;
+    padding-left: 5vmin;
+    border-radius: 2vmin;
+    border: 0;
+}
+
+#addRole {
+    height: 10vmin;
+    margin: 3.5vmin 2vmin 2vmin 2vmin;
+}
+
+#startGame {
+    height: 10vmin;
+    background-color: #ffe6be;
+    border-radius: 2vmin;
+    margin: 3vmin 3vmin 0 3vmin
+}
+#startGame img{
+    height: 7vmin;
+    margin: 0 2vmin 0 2vmin;
+}
+#startGame h1{
+    margin: 0 0 1.2vmin 0;
+}
+
+.centerBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 20px;*/
+}
+
+.roleName {
+    font-size: 5vmin;
+}
+
+.deleteImage {
+    height: 6vmin;
+    width: 6vmin;
+    /*padding: 1vmin 1vmin 0 0;*/
+    /*align-self: end;*/
+    position: relative;
+    top: 1vmin;
+    left: 19vmin;
+}
+
+.op {
+    height: 7vmin;
+}
+
+.roleImage {
+    margin: 0 0 1vmin 0;
+    position: relative;
+    width: 30vmin;
+}
+
+li button {
+    height: 70%;
+    width: 14%;
+    /*margin-bottom: 3rem;*/
+}
+
+li input {
+    height: 7vmin;
+    width: 20vmin;
+    font-size: 5vmin;
+    /*padding: 3px;*/
+    text-align: center;
+    /*margin: 2vmin;*/
+    margin-inline: 1vmin;
+    border-radius: 3.5vmin;
+    border: 0.5vmin solid #ffac18;
+}
